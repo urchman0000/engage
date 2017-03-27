@@ -1,0 +1,107 @@
+/*!
+ * Theme Name: VentCamp
+ * Theme URI: http://ventcampwp.com
+ * Description: ultimate event theme
+ * Tags: white, light, dark, two-columns, right-sidebar, responsive-layout, custom-background, custom-header, custom-menu, flexible-header, theme-options, translation-ready
+ * Text Domain: ventcamp
+ * Author: Vivaco
+ * Author URI: http://vivaco.com/
+ * Version: 1.4
+ * License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of 
+ * the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to 
+ * the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
+ * License URI: License.txt
+ * 
+ * WordPress theme for events with extensive integrations, powerful options and extensive features and integrations
+ *
+ *
+*/
+
+@import url("cache/theme-style.css");
+
+/* GENERAL FIXES */
+.main_hero_img .vc_single_image-wrapper > img {
+  margin-bottom: -50%;
+}
+
+/* DOCUMENTATION CSS FIXES */
+.post-2679 h1 {}
+
+.page-id-2679 .footer {
+  z-index: 10;
+  position: relative;
+}
+
+.page-id-2679 .pado-sharing-link i {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.page-id-2679 .pado-section-heading .pado-sharing-link i {
+  font-size: 20px;
+  margin-right: 10px;
+  top: 1.7em;
+}
+
+.page-id-2679 ol {
+  list-style-type: decimal;
+}
+
+.page-id-2679 ul {
+  list-style-type: disc;
+}
+
+.page-id-2679 ol,
+.page-id-2679 ul {
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+.page-id-2679 p img {
+  width: auto !important;
+  height: auto !important;
+}
+
+.page-id-2679 h4 {
+  font-size: 18px;
+  letter-spacing: 0;
+  margin-top: 30px;
+  text-transform: none;
+}
+
+.page-id-2679 .sidebar_cat_title a {
+  position: relative;
+  z-index: 10;
+}
+
+.page-id-2679 .open_arrow .sidebar_cat_title i:before {
+  text-indent: 5px;
+}
+
+.footer {
+  padding-top: 30px !important;
+}
+
+.page-id-2679 .demo-menu {
+  display: none;
+}
+
+.page-id-2679 {
+  padding-top: 0 !important;
+}
+
+.document {
+  margin-top: 100px;
+}
+
+@media(min-width: 768px) {
+  .pado-back-top {
+    display: none;
+  }
+}
+
+@media(max-width: 767px) {
+  .page-id-2679 #pado-sidebar {
+    overflow: visible;
+  }
+}
